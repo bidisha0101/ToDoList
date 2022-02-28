@@ -1,0 +1,70 @@
+.Todolist {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.justify-content-lg-center {
+  margin-top: 240px;
+}
+.fade-in-div {
+  opacity: 50%;
+}
+
+.fade-in-div:hover {
+  opacity: 100%;
+  transition: opacity 2s;
+}
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+.font-face-kt {
+  font-family: "KingThings";
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.d-none {
+  display: none !important;
+}
+.h4,
+h4 {
+  font-size: 1.5rem;
+  position: absolute;
+  padding-top: 30px;
+}
+.btn-supreme {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  position: absolute;
+  margin-top: 20px;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+.about-me-description {
+  margin-left: 650px;
+  padding-top: 90px;
+}
